@@ -99,6 +99,12 @@ font-size: 1.5em;
     border-radius: 5px;
 }
 
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
 .feature i{
 font-size: 2.2em;
 margin-bottom: 1.5rem;
