@@ -1,0 +1,324 @@
+:root {
+    --azulclaro: #48d6ed;
+    --azuloscuro: #337ab7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #b2b3b3;
+    --fondo: #fffefc;
+    --verdeazul: #157a8a;
+    --Magenta: #9c2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49 deg, #337ab7 2.89%, #0b3860 80.34%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 768px){
+
+    .encabezado {
+        background-color: var(--azulnegro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        width: 100px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow: hidden;;
+    }
+    
+    .imagen {
+        background: linear-gradient(to right, #316b92, #0C3C59);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .imagen p {
+        display: none;
+    }
+
+    .dos {
+        display: none;
+    }
+    
+    .imagen img {
+        height: 3em;
+        margin-top: 2em;
+    }
+
+    .foto {
+        margin-bottom: 2em;
+    }
+
+    .icono p {
+        display: none;;
+    }
+
+    .icono {
+        color: white;
+        margin-top: 2em;
+    }
+
+    .contenido {
+        margin-top: 2em;
+        text-align: center;
+        align-content: center;
+    }
+
+    .header-formulario {
+        background-color: var(--azuloscuro);
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .header-formulario h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    form {
+        box-shadow: #000;
+        width: 70%;
+        height: 16rem;
+        padding: 2%;
+        margin: 2em auto 0 auto;
+        box-shadow: 4px 5px 6px rgba(51, 199, 199, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    form label {
+        font-size: 10px;
+        margin-top: 7%;
+    }
+
+    form input {
+        width: 60%;
+        height: 25px;
+        margin-top: 5%;
+    }
+
+    form button {
+        background-color: #000;
+        color: white;
+        margin: 1em auto 1em auto;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    .habitacion {
+        width: 60%;
+        box-shadow: 4px 5px 6px rgba(51, 199, 199, 0.5);
+        margin: 2em auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .habitacion img {
+        width: 100%;
+    }
+
+    .habitacion h1 {
+        background-color: rgba(72,214,237, 0.5);
+        width: 100%;
+        margin-top: -13%;
+    }
+
+    .vermas {
+        margin-top: -50%;
+        margin-bottom: 50%;
+        color: white;
+        font-size: large;
+    }
+
+    .habitacion button {
+        background-color: #000;
+        color: white;
+        margin: 1em auto 1em auto;
+        padding: 7px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+  }
+
+@media screen and (min-width: 769px){
+
+    .encabezado {
+        background-color: var(--azulnegro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        width: 200px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow: hidden;;
+    }
+    
+    .imagen {
+        background: linear-gradient(to right, #316b92, #0C3C59);
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .imagen p {
+        display: none;
+    }
+    
+    .imagen img {
+        height: 3em;
+        margin-top: 2em;
+    }
+
+    .dos {
+        width: 3em;
+    }
+
+    .foto {
+        margin-bottom: 2em;
+    }
+
+    .icono {
+        color: white;
+        margin-top: 2em;
+    }
+
+    .contenido {
+        margin-top: 2em;
+        text-align: center;
+        align-content: center;
+        display: flex;
+    }
+
+    .header-formulario {
+        background-color: var(--azuloscuro);
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .header-formulario h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    form {
+        box-shadow: #000;
+        width: 50%;
+        height: 16rem;
+        padding: 2%;
+        margin: 2em auto 0 auto;
+        box-shadow: 4px 5px 6px rgba(51, 199, 199, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    form label {
+        font-size: 10px;
+        margin-top: 7%;
+    }
+
+    form input {
+        width: 60%;
+        height: 25px;
+        margin-top: 5%;
+    }
+
+    form button {
+        background-color: #000;
+        color: white;
+        margin: 1em auto 1em auto;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    /* .habitaciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+      } */
+
+      .habitaciones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Espacio entre las habitaciones */
+      }
+      
+      .habitacion {
+        box-shadow: 4px 5px 6px rgba(51, 199, 199, 0.5);
+        flex: 1;
+        /* margin: 0.5em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        /* width: calc(50% - 1em); */
+      }
+      
+      .habitacion img {
+        width: 100%;
+      }
+      
+      .habitacion h1 {
+        background-color: rgba(72, 214, 237, 0.5);
+        width: 100%;
+        margin-top: -13%;
+        font-size: 20px;
+      }
+      
+      .vermas {
+        margin-top: -50%;
+        margin-bottom: 50%;
+        color: white;
+        font-size: large;
+      }
+      
+      .habitacion button {
+        background-color: #000;
+        color: white;
+        margin: 1em auto 1em auto;
+        padding: 7px;
+        border-radius: 5px;
+        width: 100%;
+      }
+    
+}
